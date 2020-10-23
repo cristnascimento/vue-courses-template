@@ -1,4 +1,4 @@
-(function ($)
+const myMain = function ($)
   { "use strict"
   
   console.log("importing main.js...")
@@ -441,4 +441,10 @@ $('.courses-actives').slick({
   $('#bar5').barfiller();
   $('#bar6').barfiller();
 
-})(jQuery);
+}
+
+const myMainCall = function () {
+  myMain(jQuery)
+}
+
+export default myMainCall;
