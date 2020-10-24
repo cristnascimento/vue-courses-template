@@ -7,6 +7,7 @@ import Layout from './components/Layout'
 import Preloader from './components/Preloader'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import ScrollUp from './components/ScrollUp'
 
 const router = createRouter({
     history: createWebHistory(),
@@ -25,5 +26,6 @@ app.component('layout', Layout)
 app.component('preloader', Preloader)
 app.component('my-header', Header)
 app.component('my-footer', Footer)
+app.component('scrollup', ScrollUp)
 
 app.mount('#app')
