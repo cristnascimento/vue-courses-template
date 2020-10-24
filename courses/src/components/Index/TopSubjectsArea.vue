@@ -117,5 +117,4 @@
             </div>
         </div>
         <!-- top subjects End -->
-
 </template>

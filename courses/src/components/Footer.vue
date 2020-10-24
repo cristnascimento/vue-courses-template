@@ -91,3 +91,13 @@
       </div>
   </footer> 
 </template>
+
+<script>
+export default {
+    data () {
+        return {
+            fullYear: new Date().getFullYear()
+        }
+    },
+}
+</script>
