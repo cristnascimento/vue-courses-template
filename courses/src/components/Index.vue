@@ -21,7 +21,7 @@
                             <!-- Logo -->
                             <div class="col-xl-2 col-lg-2">
                                 <div class="logo">
-                                    <a href="index.html"><img src="/assets/img/logo/logo.png" alt=""></a>
+                                    <router-link to="/home"><img src="/assets/img/logo/logo.png" alt=""></router-link>
                                 </div>
                             </div>
                             <div class="col-xl-10 col-lg-10">

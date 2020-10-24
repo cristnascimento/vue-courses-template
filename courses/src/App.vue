@@ -1,5 +1,5 @@
 <template>
-  <my-index/>
+  <router-view></router-view>
 </template>
 
 <script>
