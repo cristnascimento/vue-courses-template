@@ -6,6 +6,7 @@ import Index from './components/Index'
 import Layout from './components/Layout'
 import Preloader from './components/Preloader'
 import Header from './components/Header'
+import Footer from './components/Footer'
 
 const router = createRouter({
     history: createWebHistory(),
@@ -23,5 +24,6 @@ app.component('my-index', Index)
 app.component('layout', Layout)
 app.component('preloader', Preloader)
 app.component('my-header', Header)
+app.component('my-footer', Footer)
 
 app.mount('#app')
