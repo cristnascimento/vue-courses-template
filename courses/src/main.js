@@ -2,7 +2,7 @@ import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import App from './App.vue'
 
-import Index from './components/Index'
+import Index from './components/Index/Index'
 import Layout from './components/Layout'
 import Preloader from './components/Preloader'
 import Header from './components/Header'
