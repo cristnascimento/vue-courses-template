@@ -9,6 +9,8 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import ScrollUp from './components/ScrollUp'
 
+import store from './store/index.js'
+
 const router = createRouter({
     history: createWebHistory(),
     routes: [
@@ -19,6 +21,7 @@ const router = createRouter({
 
 const app = createApp(App)
 
+app.use(store);
 app.use(router)
 
 app.component('my-index', Index)
